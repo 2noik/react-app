@@ -1,0 +1,41 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "homepage": "https://peaceful-shelf-48315.herokuapp.com",
+  "engines": {
+    "npm": "6.5.0",
+    "node": "11.6.0"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-hot-loader": "^4.6.3",
+    "react-scripts": "^2.1.3",
+    "serve": "^10.1.1",
+    "terser": "^3.14.1"
+  },
+  "devDependencies": {
+    "webpack-hot-middleware": "^2.24.3"
+  },
+  "description": "",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
